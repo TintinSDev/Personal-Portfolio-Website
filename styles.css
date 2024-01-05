@@ -95,6 +95,12 @@ section {
     justify-content: center;
     align-items: center;
 }
+.projects {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+}
 
 .home-content h3 {
     font-size: 3.2rem;
