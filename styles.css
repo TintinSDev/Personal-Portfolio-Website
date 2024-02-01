@@ -218,10 +218,18 @@ span {
     text-align: left;
 }
 .cert a  {
-    display: inline-flex;
+     display: inline-flex;
     align-items: left;
     justify-content: left;
-    height: 4rem;
+/*     width: 4rem;*/
+    height: 4rem; 
+/*    border-radius: 100%;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 0.5rem;
+    transition: .5s ease; */
 }
 .cert a:hover {
     background: #21add7;
@@ -229,6 +237,9 @@ span {
     box-shadow: 0 .5rem 1rem var(--main-color);
     border-radius: 50%
 
+}
+.cert a::before {
+    background: #fff;
 }
 
 .btn {
