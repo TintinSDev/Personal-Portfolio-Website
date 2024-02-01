@@ -167,7 +167,7 @@ span {
 }
 
 .social-projects a:hover {
-    background: #48bfe3;
+    background: #21add7;
     color: var(--second-bg-color);
     box-shadow: 0 .5rem 1rem var(--main-color);
 
