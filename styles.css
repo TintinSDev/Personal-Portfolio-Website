@@ -235,7 +235,7 @@ span {
     background: #21add7;
     color: var(--second-bg-color);
     box-shadow: 0 .5rem 1rem var(--main-color);
-    border-radius: 100%
+   
 
 }
 .cert a::before {
