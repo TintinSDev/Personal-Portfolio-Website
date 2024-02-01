@@ -217,6 +217,19 @@ span {
     color: var(--text-color);
     text-align: left;
 }
+.cert a  {
+    display: inline-flex;
+    align-items: left;
+    justify-content: left;
+    height: 4rem;
+}
+.cert a:hover {
+    background: #21add7;
+    color: var(--second-bg-color);
+    box-shadow: 0 .5rem 1rem var(--main-color);
+    border-radius: 50%
+
+}
 
 .btn {
     display: flex;
